@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-test.describe('hover test', () => {
+test.describe('Day off test', () => {
     test('Successful hover', async ({ page }) => {
         const loginPage = new LoginPage(page);
         const homePage = new HomePage(page);
