@@ -31,9 +31,12 @@ test.describe('hover test', () => {
         const selectedDate = await vacationPage.getSelectedDateTextValue()
         await expect(selectedDate).toBe('02/18/2025')
 
+
         /*
-        Trello mentiones must verify the start date, end date and point of contact.
+        Trello ticket mentions must verify the start date, end date and point of contact.
         Chrome and Firefox is only required.
+        A HTML and JSON report is required.
+        */
 
     });
 });
